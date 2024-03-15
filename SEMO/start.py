@@ -936,7 +936,7 @@ hroof = [" مدينة بحرف ♪ ع  ",
 @Client.on_message(
     filters.command(["/alive", "معلومات", "سورس", "السورس", "• السورس •"], "")
 )
-async def alive(client: Client, message):
+async def sors(client: Client, message):
     chat_id = message.chat.id
     ch = await get_channelsr(client.me.username)
     gr = await get_groupsr(client.me.username)
